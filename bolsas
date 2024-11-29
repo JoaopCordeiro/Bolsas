@@ -1,0 +1,36 @@
+package bolsas;
+import java.util.Scanner;
+
+
+public class Bolsas {
+	
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		
+		System.out.println("Digite a sua nota");
+		
+		int nota = in.nextInt();
+		int NumberDayAbsent = 0;
+		int grande = nota;
+		boolean madeHonorRoll = grande>= 88;
+		
+		
+	
+		
+	{			if (madeHonorRoll && NumberDayAbsent==0)
+		System.out.println("Você foi aprovado");
+	
+	else {
+		System.out.println("Você foi recusado");
+	}
+		
+		
+		
+
+	}		
+		
+		
+	}
+
+}
